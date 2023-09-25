@@ -1,0 +1,23 @@
+body {
+    /* Set the initial background color */
+    background-color: #3498db;
+    /* Add animation */
+    animation: colorChange 15s infinite alternate;
+}
+
+/* Define the keyframes animation */
+@keyframes colorChange {
+    0% {
+        background-color: #3498db;
+    }
+    100% {
+        background-color: #e74c3c;
+    }
+}
+
+/* Optional: Style for the content */
+.content {
+    text-align: center;
+    padding: 100px;
+    color: #fff;
+}
